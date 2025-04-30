@@ -48,7 +48,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute' => 'data',
                 'format' => 'html',
                 'value' => function($data) {
-                    return '<code>' . Yii::$app->formatter->format(var_export(unserialize($data->data), true), 'ntext') . '</code>';
+                    return '<code>' . Yii::$app->formatter->format(var_export(unserialize($data->data ?? ''), true), 'ntext') . '</code>';
                 }
             ],
             'created_at',
