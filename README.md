@@ -8,7 +8,7 @@
 RBAC management module for Yii2
 
 # Requirements 
-* PHP 5.6 or higher
+* PHP 7.4 or higher
 * Yii2 v.2.0.33 and newest
 * [Yii2 Users](https://github.com/wdmg/yii2-users) module
 
